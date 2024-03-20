@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Allura</title>
+    <link rel="stylesheet" href="/Challenge !/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="centrado">Encriptador Allura</h1>
+        </header>
+        
+        <h2 class="centrado">Ingrese el texto a encriptar</h2>
+        <h3 class="centrado">El mismo no puede contener numeros ni caracteres especiales</h3>
+        <textarea id="textoOriginal" rows="4" cols="50" placeholder="Ingrese su texto aquí"></textarea><br>
+        <h2 class="centrado">Texto encriptado</h2>
+        <textarea id="textoEncriptado" rows="4" cols="50" placeholder="Texto encriptado"></textarea><br>
+        <button class="boton" onclick="encriptar()">Encriptar</button>
+        <button id="copiarTextoEncriptado" class="boton oculto" onclick="copiarTexto()">Copiar texto encriptado</button>
+        <button class="boton" onclick="desencriptar()">Desencriptar</button>
+        <p id="resultado"></p>
+        
+        <footer>
+            <p class="centrado">Florencio Aquino - 2024</p>
+        </footer>
+    </div>
+
+    <script src="/Challenge !/apps.js"></script>
+</body>
+</html>
